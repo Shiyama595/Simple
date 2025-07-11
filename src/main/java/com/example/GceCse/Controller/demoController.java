@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class demoController {
          @RequestMapping("/")
          public String home() {
-        	 return "Index";
+        	 return "templates/Index";
          }         
 }
